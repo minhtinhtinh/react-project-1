@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import '../../../node_modules/materialize-css/dist/css/materialize.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const SmoothScroll = () => (
     <section>
         <div className="navbar-fixed">
-            <nav className="purple">
+            <nav className="transparent"> {/*màu của navbar*/}
                 <div className="container">
                     <div class="nav-wrapper">
                         <AnchorLink href="!#" className="brand-logo">M-Travel</AnchorLink>
@@ -37,11 +36,7 @@ const SmoothScroll = () => (
 export class Navbar extends Component {
     render() {
         return (
-            <div>
-                <SmoothScroll />
-            </div>
-
-
+            <SmoothScroll />
         )
     }
 }
