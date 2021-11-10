@@ -1,0 +1,14 @@
+.footer{
+    background-image: url('../Photo/yellow-bg.png');
+    background-repeat: unset;
+    margin: 0 0 0 0;  
+    box-shadow: inset 0px 5px 10px 0px  rgba(150, 153, 0, 0.9);   
+}
+
+.followus{
+    font-size: 20px;
+}
+
+.fa-3x{
+    margin: 15px;
+}

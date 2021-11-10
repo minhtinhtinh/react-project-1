@@ -1,0 +1,20 @@
+h4#auto-size-text {
+    /* font-size: 2.5vw; tự động theo kích thước browser */
+    font-size: 2rem;
+    color: rgb(12, 8, 240);
+    line-height: 110%;
+    margin: 0;
+}
+
+.category-icons {
+    background-image: url("../Photo/yellow-bg.png");
+    box-shadow: inset 0px 5px 14px 5px  rgba(176, 145, 9, 0.9);    
+}
+
+.category-icons .yellow-content {
+    padding: 3.125rem 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap
+}

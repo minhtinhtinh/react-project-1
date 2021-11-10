@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import '../../CSS/Navbar.css'
 
 const SmoothScroll = () => (
     <section>
         <div className="navbar-fixed">
-            <nav className="transparent"> {/*màu của navbar*/}
+            <nav className="navbarwall"> {/*màu của navbar*/}
                 <div className="container">
                     <div class="nav-wrapper">
-                        <AnchorLink href="!#" className="brand-logo">M-Travel</AnchorLink>
+                        <AnchorLink href="!#" className="brand-logo">MTravel</AnchorLink>
                         <AnchorLink href="!#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></AnchorLink>
                         <ul class="right hide-on-med-and-down">
                             <li><AnchorLink href="/Home">Home</AnchorLink></li>
