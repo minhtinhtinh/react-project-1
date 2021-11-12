@@ -1,0 +1,7 @@
+.gallery{       
+    padding: 1% 5% 0% 5%; 
+    box-shadow: inset 0px 5px 10px 0px  rgba(150, 153, 0, 0.9); 
+    background-image: url("../Photo/yellow-bg.png");
+    margin: 0 0 0 0;
+    /*chỉ số đầu là viền cách cạnh trái bao nhiêu, chỉ số thứ 2 là cạnh dưới , chỉ số thứ 3 là độ phồng của cạnh thứ 4 là */
+}
